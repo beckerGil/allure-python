@@ -44,7 +44,7 @@ def get_readme(fname):
 def main():
     setup(
         name=PACKAGE,
-        # use_scm_version=prepare_version,
+        version=2,
         description="Allure pytest-bdd integration",
         url="https://github.com/allure-framework/allure-python",
         author="QAMetaSoftware, Stanislav Seliverstov",
